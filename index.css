@@ -2,14 +2,31 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  user-select: none;
 }
 
 html, body {
-font-family: 'Courier New', Courier, monospace;
+font-family: Helvetica, sans-serif;
+background-color: darkorange;
+width: 100vw;
+height: 100vh;
+overflow: hidden;
 }
 
 h1 {
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 30px;
   text-align: center;
-  font-weight: 100;
+  color: #4e4e4e;
+  text-transform: uppercase;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+#mainCanvas {
+  background-color: orange;
+  border: 10px solid #4e4e4e;
 }
